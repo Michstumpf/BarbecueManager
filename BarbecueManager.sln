@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{AB631F1E-15C5-4AB6-8EE3-98176BAB8F92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{863C9BA6-840B-41B2-A409-81D40773C6B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{AB293D0A-D58A-4F6C-91F8-E869E167B682}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{5E11512E-8096-4937-9EE5-E71C4D2167CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Test", "5 - Test", "{29FC92C7-A774-4B91-8516-12CA65F1503F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "X - CrossCutting", "X - CrossCutting", "{01142659-7985-420C-BF04-9EFD48851A72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarbecueManager.Domain", "BarbecueManager.Domain\BarbecueManager.Domain.csproj", "{C5D85AD6-CEA9-433D-A37B-729B54CF8A28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarbecueManager.Application", "BarbecueManager.Application\BarbecueManager.Application.csproj", "{F96DC2DF-6B73-4CFE-8308-F54B0A299D88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarbecueManager.Api", "BarbecueManager.Api\BarbecueManager.Api.csproj", "{73C9E4CB-B57D-4948-827C-650B77AC76E8}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{FDD69564-687E-4103-BDC6-EA819EEC57C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarbecueManager.Infrastructure", "BarbecueManager.Infrastructure\BarbecueManager.Infrastructure.csproj", "{2E3CD696-7AF2-4B63-BF44-B11DDCEE6D12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarbecueManager.Patterns", "BarbecueManager.Patterns\BarbecueManager.Patterns.csproj", "{C5539C03-EB3C-4EC2-908A-AC18D4C9956A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5D85AD6-CEA9-433D-A37B-729B54CF8A28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5D85AD6-CEA9-433D-A37B-729B54CF8A28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5D85AD6-CEA9-433D-A37B-729B54CF8A28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5D85AD6-CEA9-433D-A37B-729B54CF8A28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F96DC2DF-6B73-4CFE-8308-F54B0A299D88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F96DC2DF-6B73-4CFE-8308-F54B0A299D88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F96DC2DF-6B73-4CFE-8308-F54B0A299D88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F96DC2DF-6B73-4CFE-8308-F54B0A299D88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73C9E4CB-B57D-4948-827C-650B77AC76E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73C9E4CB-B57D-4948-827C-650B77AC76E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73C9E4CB-B57D-4948-827C-650B77AC76E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73C9E4CB-B57D-4948-827C-650B77AC76E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDD69564-687E-4103-BDC6-EA819EEC57C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDD69564-687E-4103-BDC6-EA819EEC57C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDD69564-687E-4103-BDC6-EA819EEC57C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDD69564-687E-4103-BDC6-EA819EEC57C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E3CD696-7AF2-4B63-BF44-B11DDCEE6D12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E3CD696-7AF2-4B63-BF44-B11DDCEE6D12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E3CD696-7AF2-4B63-BF44-B11DDCEE6D12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E3CD696-7AF2-4B63-BF44-B11DDCEE6D12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5539C03-EB3C-4EC2-908A-AC18D4C9956A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5539C03-EB3C-4EC2-908A-AC18D4C9956A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5539C03-EB3C-4EC2-908A-AC18D4C9956A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5539C03-EB3C-4EC2-908A-AC18D4C9956A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C5D85AD6-CEA9-433D-A37B-729B54CF8A28} = {AB293D0A-D58A-4F6C-91F8-E869E167B682}
+		{F96DC2DF-6B73-4CFE-8308-F54B0A299D88} = {863C9BA6-840B-41B2-A409-81D40773C6B0}
+		{73C9E4CB-B57D-4948-827C-650B77AC76E8} = {AB631F1E-15C5-4AB6-8EE3-98176BAB8F92}
+		{2E3CD696-7AF2-4B63-BF44-B11DDCEE6D12} = {5E11512E-8096-4937-9EE5-E71C4D2167CE}
+		{C5539C03-EB3C-4EC2-908A-AC18D4C9956A} = {01142659-7985-420C-BF04-9EFD48851A72}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFA3B0CE-65C5-4E6F-A204-E950F5D50CD3}
+	EndGlobalSection
+EndGlobal

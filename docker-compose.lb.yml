@@ -1,0 +1,40 @@
+version: '2'
+
+services:
+  barbecuemanager.api:
+    image: barbecuemanager.api
+    build:
+      context: ./BarbecueManager.Api
+      dockerfile: Dockerfile
+    environment:
+      - BARBECUE_MANAGER_CONNECTION_STRING=Server=DESKTOP-AGO19HF\SQLEXPRESS;Database=BarbecueManager;Trusted_Connection=True;
+    ports:
+      - 8080
+    networks:
+      - front-tier
+      - back-tier
+
+  redis:
+    image: redis
+    links:
+      - barbecuemanager.api
+    networks:
+      - back-tier
+
+  lb:
+    image: dockercloud/haproxy
+    ports:
+      - 80:80
+    links:
+      - barbecuemanager.api
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    networks:
+      - front-tier
+      - back-tier
+
+networks:
+  front-tier:
+    driver: bridge
+  back-tier:
+    driver: bridge

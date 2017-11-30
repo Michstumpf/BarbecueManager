@@ -1,0 +1,15 @@
+networks:
+  default:
+    external:
+      name: nat
+services:
+  barbecuemanager.api:
+    build:
+      context: c:\users\micha\source\repos\BarbecueManager\BarbecueManager.Api
+      dockerfile: Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: barbecuemanager.api
+    ports:
+    - 80/tcp
+version: '3.0'

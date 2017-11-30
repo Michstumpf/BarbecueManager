@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  barbecuemanager.api:
+    image: barbecuemanager.api
+    build:
+      context: ./BarbecueManager.Api
+      dockerfile: Dockerfile

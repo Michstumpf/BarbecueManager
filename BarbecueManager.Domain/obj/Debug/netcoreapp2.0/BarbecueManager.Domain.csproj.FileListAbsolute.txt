@@ -1,0 +1,11 @@
+c:\users\micha\source\repos\BarbecueManager\BarbecueManager.Domain\bin\Debug\netcoreapp2.0\BarbecueManager.Domain.deps.json
+c:\users\micha\source\repos\BarbecueManager\BarbecueManager.Domain\bin\Debug\netcoreapp2.0\BarbecueManager.Domain.dll
+c:\users\micha\source\repos\BarbecueManager\BarbecueManager.Domain\bin\Debug\netcoreapp2.0\BarbecueManager.Domain.pdb
+c:\users\micha\source\repos\BarbecueManager\BarbecueManager.Domain\bin\Debug\netcoreapp2.0\BarbecueManager.Patterns.dll
+c:\users\micha\source\repos\BarbecueManager\BarbecueManager.Domain\bin\Debug\netcoreapp2.0\BarbecueManager.Patterns.pdb
+c:\users\micha\source\repos\BarbecueManager\BarbecueManager.Domain\obj\Debug\netcoreapp2.0\BarbecueManager.Domain.csprojResolveAssemblyReference.cache
+c:\users\micha\source\repos\BarbecueManager\BarbecueManager.Domain\obj\Debug\netcoreapp2.0\BarbecueManager.Domain.csproj.CoreCompileInputs.cache
+c:\users\micha\source\repos\BarbecueManager\BarbecueManager.Domain\obj\Debug\netcoreapp2.0\BarbecueManager.Domain.AssemblyInfoInputs.cache
+c:\users\micha\source\repos\BarbecueManager\BarbecueManager.Domain\obj\Debug\netcoreapp2.0\BarbecueManager.Domain.AssemblyInfo.cs
+c:\users\micha\source\repos\BarbecueManager\BarbecueManager.Domain\obj\Debug\netcoreapp2.0\BarbecueManager.Domain.dll
+c:\users\micha\source\repos\BarbecueManager\BarbecueManager.Domain\obj\Debug\netcoreapp2.0\BarbecueManager.Domain.pdb
