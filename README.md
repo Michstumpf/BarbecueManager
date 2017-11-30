@@ -14,3 +14,5 @@ Para executar:
 	1. - "docker-compose -f docker-compose.ci.build.yml up -d"
 	2. - "docker-compose -f docker-compose.lb.yml build -d"
 	3. - "docker-compose -f docker-compose.lb.yml up -d"
+	
+Let's make a barbecue!
